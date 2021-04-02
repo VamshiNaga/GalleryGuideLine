@@ -1,0 +1,627 @@
+/*indexcss*/
+
+body
+	{
+		font-family: 
+	}
+
+.row
+	{
+		margin: 0px !important;
+	}
+
+.header-row1 
+	{
+		background-color: #003366;
+		margin: 0px ;
+	    /*display: block;*/
+	}
+
+.header-row1-helpline
+	{
+		text-align: right;
+		color: #fff;
+		font-size: 14px;
+		margin-top: 5px;
+	}
+
+.are_pic
+	{
+		text-decoration: none;
+		color: #fff;
+	}
+
+.are_pic:hover
+	{
+		text-decoration: none;
+		color: #fff;
+	}
+
+.header-row1-are-youp
+	{
+		text-align: left;
+		color: #fff;
+		font-size: 14px;
+		margin-top: 5px;
+	}
+
+.pad-l2
+	{
+		padding-left: 22% !important;
+	}
+
+.header-row2 
+	{
+		background-color: #003366;
+		margin: 0px ;
+	    /*display: block;*/
+	}
+
+.logo
+	{
+		width: 65%;
+	}
+
+.sel-w
+	{
+		background-color: #003366;
+		border-color: #003366;
+		color: #fff;
+		margin: 7px 30px;
+	}
+
+.header-row2-cart .Sign
+	{
+		color: #fff;
+		text-decoration: none;
+	}
+
+.input-group-text
+	{
+		background-color: #003366 !important;
+	}
+
+.ser-l
+	{
+		width: 20px;
+	}
+
+.modal-title
+	{
+		padding-left: 40%;
+		color: #fff;
+	}   
+
+.login
+		{
+			
+			width: 350px;
+			box-sizing: border-box;
+			padding: 40px;
+			background: #fff;
+			margin-left: 60px;
+			margin-top: 30px;
+		}		
+
+	.login .input-group	
+		{
+			position: relative;
+			width: 100%;
+			margin-bottom: 25px;
+		}
+
+	.login .input-group input
+		{
+			height: 50px;
+			width: 100%;
+			padding: 0 20px;
+			box-sizing: border-box;
+			font-size: 18px;
+			outline: none;
+			border: 1px solid #000;
+		}	
+
+	.login .input-group span	
+		{
+		  position: absolute;
+		  top: 12px;
+		  left: 20px;
+		  padding: 0;
+		  transition: 0.5s;
+		  pointer-events: none;
+		  background: #fff;
+		  text-transform: uppercase;
+		}
+
+	.login .input-group input:focus ~ span,
+	.login .input-group input:valid ~ span
+		{
+		  top: -12px;
+		  left: 12px;
+		  font-size: 12px;
+		  padding: 2px 4px;
+		  border: 1px solid #000;
+		  background: #007bff;
+		}	
+
+	.login .input-group input[type="submit"]
+		{
+			background: #003366;
+			border: none;
+			box-shadow: none;
+			text-transform: uppercase;
+			cursor: pointer;
+			font-weight: 600;
+			color: #fff
+		}	
+
+	.login .input-group input[type="submit"]:hover
+		{
+			background: #d5d7d7;
+			color: #000;
+		}	
+
+	.login a
+		{
+			color: #262626;
+			text-decoration: none;
+			display: block;
+			
+
+		}
+
+	.login a span
+	{
+		color: #262626;
+		font-weight: 800;
+	}
+
+.sign
+		{
+			
+			width: 100%;
+			margin-left: 0px !important;
+			margin-top: 20px;
+
+		}
+
+    .sign .input-group input
+		{
+			height: 45px;
+			
+		}
+
+	.sign .input-group span	
+		{
+		  
+		  top: 8px;
+		  
+		}	
+
+    .modal-content
+	    {
+	    	margin-top: 14%;
+	    }
+
+	.modal-header
+		{
+			background-color: #003366;
+		}    
+
+
+.header-row2-cart
+	{
+		padding: 11px 5px;
+	}
+
+.dropdown 
+	{
+	  position: relative;
+	  display: inline-block;
+	}
+
+.dropdown-content 
+	{
+	  display: none;
+	  position: absolute;
+	  background-color: #003366;
+	  min-width: 100%;
+	  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	  z-index: 1;
+	  padding: 15px 0;
+	  text-align: center;
+	}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #003366;}
+
+
+
+.container
+	{
+		display: contents;
+	}
+
+.content
+	{
+		background: url(images/photo11.jpg);
+		height: 70vh;
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: center;
+	}
+
+.popup1
+	{
+		text-align: center;
+		color: #fff;
+		padding: 13%;
+	}
+
+.syctxt
+	{
+		text-align: center;
+		padding: 2%
+	}
+
+.camera-rg
+	{
+		cursor: pointer;
+	}
+
+.camera-rg-img img
+	{
+		width: 100%;
+	}
+
+.P-4
+	{
+		padding: 4%;
+	}
+
+.overlayer1
+	{
+		position: absolute;
+	    top: 7%;
+	    bottom: 0%;
+	    left: 4%;
+	    right: 0%;
+	    height: 86%;
+	    width: 92%;
+	    opacity: 1;
+	    transition: .5s ease;
+	    background-color: rgba(0,64,133,.35);
+	    border-radius: 5%;
+	}
+
+.camera-rg-total:hover
+.overlayer1
+	{
+		opacity: 0;
+	}
+
+.camera-rg-title 
+	{
+		color: white;
+		font-size: 15px;
+		font-weight: 500;
+	    position: absolute;
+	    top: 50%;
+	    left: 50%;
+	    transform: translate(-50%,-50%);
+	}
+
+.Howworktext1
+	{
+		text-align: center;
+		font-size: 16px;
+		font-weight: 600;
+		color: #000;
+	}
+
+.Howworktext2
+	{
+		text-align: center;
+		font-size: 14px;
+		color: #2a2b2b;
+	}
+
+.whychoose-cn
+	{
+		text-align: center;
+	}
+
+.whychoose-cn img
+	{
+		width: 17%;
+		padding-bottom: 5%;
+	}
+
+.popphoto-main
+	{
+		position: relative;
+		width: 100%;
+		display: flex;
+		flex-wrap: wrap;
+		padding: 2% 20%;
+	}
+
+.popphoto-main .box
+	{
+		position: relative;
+		width: 200px;
+		height: 200px;
+		overflow: hidden;
+		transition: 0.5s;
+	}
+
+.popphoto-main .box:hover
+	{
+		z-index: 1;
+		transform: scale(1.25);
+		box-shadow: 0 25px 40px rgba(0,0,0,.5);
+	}
+
+.popphoto-main .box .imgbx 
+	{
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+	}
+
+.popphoto-main .box .imgbx:before
+	{
+		content: '';
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		z-index: 1;
+		background: linear-gradient(180deg,#357abd,#000);
+		mix-blend-mode: multiply;
+		opacity: 0;
+		transition: 0.5s;
+	}
+
+.popphoto-main .box:hover .imgbx:before
+	{
+		opacity: 1;
+	}
+
+.popphoto-main .box .popphoto img
+	{
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+	}
+
+.popphoto-main .box .popphoto
+	{
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		z-index: 1;
+		display: flex;
+		padding: 20px;
+		align-items: flex-end;
+	}
+
+	.popphoto-main .box .popphoto h2
+	{
+		color: #fff;
+		transition: 0.5s;
+		text-transform: uppercase;
+		margin-bottom: 5px;
+		font-size: 20px;
+		transform: translateY(200px);
+	}
+
+.popphoto-main .box:hover .popphoto h2
+	{
+		transform: translateY(0);
+		transition-delay: 0.6s;
+	}
+
+.popphoto-main .box .popphoto p
+	{
+		color: #fff;
+		transform: translateY(200px);
+		transition: 0.5s;
+		font-size: 14px;
+	}
+
+.popphoto-main .box:hover .popphoto p
+	{
+		transform: translateY(0);
+		transition-delay: 0.6s;
+	}
+
+.auphototext
+	{
+		padding: 4%;
+		background: #e5e7e8;
+	}
+
+.btjon
+	{
+		padding: 9px 45px;
+	    font-size: 15px;
+	    background: #003366;
+	    color: #fff;
+	    border: transparent;
+	    border-radius: 4px;
+	}
+
+.inner_foot
+	{
+		padding: 2% 3%;
+	    color: #a8a9ad;
+	}
+
+.pad-0
+	{
+		padding: 0%;
+	}
+
+.foot-titile
+	{
+		font-size: 17px;
+	    font-weight: 600;
+	}
+
+.foot-link
+	{
+		padding: 1% 17px;
+	}
+
+.foot-icon
+	{
+		font-size: 14px;
+	    padding: 0;
+	}
+
+.colo-name
+	{
+		color: #a8a9ad !important;
+	}
+
+.colo-name:hover
+	{
+		text-decoration: none;
+	}
+
+.main_page-footer
+	{
+		border: 1px solid #141414;
+	    background-color: #141414;
+	}
+
+.cl-icon
+	{
+		padding: 0 0 0 0px;
+	}
+
+.sup-icon
+	{
+		width: 70%;
+	}
+
+.sup-text
+	{
+		color: #a8a9ad;
+	    text-decoration: none;
+	    font-size: 14px;
+	    padding-left: 2%;
+	}
+
+.foot-slogo
+	{
+		padding: 8px 6px;
+	}
+
+.foot-logo
+	{
+		width: 7%;
+		margin-left: 2%;
+	}
+
+.foot-logo1
+	{
+		width: 10%;
+		margin-left: 2%;
+	}
+
+/*indexcss End*/
+
+.container-page_2
+	{
+		padding: 2%;
+	}
+
+.P-Occtex
+	{
+		padding: 4%;
+	}
+
+.Ct-ptexW
+	{
+		font-weight: 600;
+	}
+
+.page_2op
+	{
+		width: 100%;
+	    height: 8vh;
+	    padding: 0 6%;
+	    align-items: center;
+	    font-weight: 500;
+	    background: #ebebeb;
+	    border-color: #fff;
+	}
+
+.page_2al
+	{
+		text-align: center;
+	}
+
+
+
+/*page next 3*/
+
+.cua-photo
+	{
+		text-align: center; 
+		border: 1px solid #dedede; 
+		border-radius: 10px; 
+		padding: 22px 0;
+		margin-right: 15%;
+		margin-left: 15%;
+	}
+
+.cua-date
+	{
+		padding: 10px 40px 0 40px;
+	}	
+
+.join
+	{
+		padding: 10px 64px;
+	    font-size: 15px;
+	    background: #003366;
+	    color: #fff;
+	    border: transparent;
+	    border-radius: 4px;
+	}        
+
+/*Media*/
+
+@media only screen and (max-width: 1024px) and (min-width:769px)
+{
+
+ .pad-l2 
+ {
+    padding-left: 15% !important;
+ }
+ 
+ .sel-w 
+ {   
+    margin: 7px 0px;
+ }
+
+}
+
+@media only screen and (max-width: 320px)
+
+@media only screen and (max-width: 539px) and (min-width: 320px)
+
+@media only screen and (max-width: 768px) and (min-width:539px)
+

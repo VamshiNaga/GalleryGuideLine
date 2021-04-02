@@ -1,0 +1,712 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+   <meta charset="utf-8">
+   <title>GalleryGuideLine - Home</title>
+   <meta name="description" content="Gallery Guide Line">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+    
+   <link rel="stylesheet" type="text/css" href="index.css">
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
+
+
+  </head>
+    
+  <body>
+
+<!-- navbar -->
+
+
+  <div class="main_page-header" id="fixed_header" style="z-index: 9999; position: sticky; top: 0px; box-shadow: 2px 10px 15px 1px rgba(0, 0, 0, 0.5);"> 
+    <div class="header-row1 row">
+
+      <div class="header-row1-helpline col-xl-10 col-lg-9 col-md-10 col-sm-10">
+        Helpline: <a href="tel:++917732065850" class="are_pic">+917732065850</a>
+      </div>
+
+      <div class="header-row1-are-youp col-xl-2 col-lg-3 col-md-2 col-sm-2">
+        <a href="" class="are_pic" onclick="alert('We proved this service soon..')">
+        Are you PhotoGrapher?</a>
+      </div>
+
+    </div>
+
+    <div class="header-row2 row col-lg-12 col-md-12 col-sm-12 ">
+
+      <div class="header-row2-logo col-xl-3 col-lg-3 col-md-3 col-sm-3" style="text-align: center;">
+        <img src="images/plogo.png" alt="GalleryGuideLine" title="Gallery Guide Line" class="logo">
+      </div>
+
+      <div class="header-row2 col-xl-4 col-lg-4 col-md-4 col-sm-4 row" style="margin: 7px 0 !important;">
+         <div class=" header-row2-cart col-xl-6 col-lg-6 col-md-6 col-sm-6 pad-l2" >
+          <img src="images/home.png"width="17" height="17" style="margin: 0 10px 5px;">
+          <a href="" class="Sign">Home</a> 
+         </div>
+
+         <div class=" header-row2-cart col-xl-6 col-lg-6 col-md-6 col-sm-6">
+          <a href="Service.html" target="_blank" class="Sign">Our Service</a>
+         </div>
+      </div>
+
+      <div class="header-row2 col-xl-5 col-lg-5 col-md-5 col-sm-5 row">
+        <div class="header-row2-cart  col-lg-4 col-md-4 col-sm-4">
+          <select class="sel-w">
+            <option>Warangal</option>
+            <option>Hyderabad</option>
+            <option>Karimnagar</option>
+          </select>
+        </div>
+
+        <div class="header-row2-cart col-xl-4 col-lg-4 col-md-4 col-sm-4" style="text-align: center;">
+         <button class="btn Sign" data-toggle="" data-target="">Cart
+         <img src="images/cart.png" width="21" height="21" style="margin: 0 5px 4px;">
+         </button> 
+        </div>
+
+        <div class="header-row2-cart col-xl-4 col-lg-4 col-md-4 col-sm-4">
+          <div class="dropdown">
+            <button class="dropbtn btn Sign" >Sign in
+             <img src="images/avatar.png"width="21" height="21" style="margin: 0 0 4px;">
+            </button>
+            <div class="dropdown-content">
+              <button class="btn Sign" data-toggle="modal" data-target="#loginModal">Login
+              </button>
+
+                <div class="modal fade" id="loginModal" data-backdrop="static" tabindex="-1" role="dialog" aria-labelledby="loginModalLabel" aria-hidden="true">
+                 <div class="modal-dialog" role="document">
+                  <div class="modal-content" style="margin-top: 22%;">
+                    <div class="modal-header">
+                      <h4 class="modal-title" id="loginModalLabel">Login</h4>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+
+                    <div class="modal-body login">
+                    
+                      <form id="form">
+
+                        <div class="input-group">
+                          <input type="text" name="" required="required" id="username1" maxlength="20">
+                          <span>Username</span>
+                        </div>
+
+                        <div class="input-group">
+                          <input type="Password" name="" required="required" id="password1" maxlength="10">
+                          <span>Password</span>
+                        </div>
+
+                        <!-- <label>
+                          <input type="checkbox" checked="checked" name="remember"> Remember me
+                        </label> -->
+
+                        <div class="input-group">
+                          <input type="submit" name="" value="Login" onclick="validate()"  id="submit"> 
+                        </div>
+                      </form>
+
+                      <a href="#" style="text-decoration-line:none;">
+                      Recover Your Account</a>
+
+                      <a href="#" style="text-decoration-line:none;" data-toggle="modal1" data-target="#signModal">
+                      Sign Up For -----</a>
+                    </div>
+                  </div>  
+                 </div> 
+                </div>
+
+             <button class="btn Sign" data-toggle="modal" data-target="#SignModal">Sign up
+              </button>
+
+                <div class="modal fade" id="SignModal" data-backdrop="static" tabindex="-1" role="dialog" aria-labelledby="SignModalLabel" aria-hidden="true">
+                 <div class="modal-dialog" role="document">
+                  <div class="modal-content" >
+                    <div class="modal-header">
+                      <h4 class="modal-title" id="SignModalLabel">Sign up</h4>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+
+                    <div class="modal-body login sign" >
+                  
+                     <form id="form">
+
+                      <div class="row col-lg-12 col-md-12 col-sm-12">
+                          <div class="row col-lg-12 col-md-12 col-sm-12" style="padding: 0px">
+                            <div class=" col-lg-6 col-md-6 col-sm-6 ">
+                              <div class="input-group">
+                               <input type="text" name="" required="required" id="Firstname" maxlength="20">
+                               <span>First Name</span>
+                              </div>
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-sm-6 ">
+                              <div class="input-group">
+                               <input type="text" name="" required="required" id="Lastname" maxlength="10">
+                               <span>Last Name</span>
+                              </div>
+                            </div>
+                          </div>
+
+                          <div class="row col-lg-12 col-md-12 col-sm-12 ">
+                            <div class="input-group">
+                             <input type="text" name="" required="required" id="Phonenumber" maxlength="20">
+                              <span>Enter Phone Number</span>
+                            </div>  
+                          </div>
+
+                          <div class="row col-lg-12 col-md-12 col-sm-12">
+                            <div class="input-group">
+                             <input type="email" name="" required="required" id="email" maxlength="20">
+                              <span>Enter Your E-mail Id</span>
+                            </div>  
+                          </div>  
+
+                          <div class="row col-lg-12 col-md-12 col-sm-12">
+                            <div class="input-group">
+                             <input type="Password" name="" required="required" id="Password"
+                             maxlength="10">
+                              <span>Password</span>
+                            </div> 
+                          </div>
+
+                          <div class="row col-lg-12 col-md-12 col-sm-12 ">
+                            <div class="input-group">
+                             <input type="Password" name="" required="required" id="Password"
+                             maxlength="10">
+                              <span>Confirm Password</span>
+                            </div>  
+                          </div>
+
+                          <div class="row col-lg-12 col-md-12 col-sm-12 ">
+                            <div class="input-group">
+                              <input type="submit" name="" value="create account" id="submit">
+                            </div>
+                          </div>
+
+                          </form>  
+
+                            <a href="#" style="text-decoration-line:none;" data-toggle="modal1" data-target="#signModal" style="text-align: center;">
+                           Login  -----</a>
+                         
+                      </div>  
+                      
+                    </div>
+                        
+
+                      
+                    </div>
+                  </div>  
+                 </div> 
+
+              
+            </div>
+          </div>
+        </div>
+
+     </div> 
+    </div>
+  </div> 
+  
+<!-- navbar End-->
+
+<!-- jambodron -->
+
+   <div class="container">
+     <div class="content">
+       <div class="popup1">
+         <h1>Design Your World</h1>
+         <p style="color:  #24e415; font-weight: 600;">Reserve your favorite Photographer</p>
+       </div>
+     </div>
+   </div>
+
+<!-- jambodron End-->
+
+<!-- Select your camera -->
+
+   <div class="syctxt">
+     <h3>Select Your Camera</h3>
+   </div>
+    
+  <div class="row" style="padding: 0 10%">
+   <div class="row">
+     <div class="camera-rg col-lg-3 col-md-3 col-xs-3" style="padding: 0px;">
+      <a href="Selectcam.html">
+        <div class="camera-rg-total P-4" role="button" tabindex="0">
+          <div class="camera-rg-img">
+            <img src="images/rgcam.jpg">
+          </div>
+          <div class="overlayer1">
+            <div class="camera-rg-title" >Regular Camera</div>
+          </div>
+        </div>  
+      </a>
+     </div>
+
+     <div class="camera-rg col-lg-3 col-md-3 col-xs-3" style="padding: 0px;">
+      <a href="">
+        <div class="camera-rg-total P-4" role="button" tabindex="0">
+          <div class="camera-rg-img">
+            <img src="images/rgvide.jpg">
+          </div>
+          <div class="overlayer1">
+            <div class="camera-rg-title" >Regular Video</div>
+          </div>
+        </div>  
+      </a>
+     </div>
+
+     <div class="camera-rg col-lg-3 col-md-3 col-xs-3" style="padding: 0px;">
+      <a href="">
+        <div class="camera-rg-total P-4" role="button" tabindex="0">
+          <div class="camera-rg-img">
+            <img src="images/candi.jpg">
+          </div>
+          <div class="overlayer1">
+            <div class="camera-rg-title" >Candy Camera</div>
+          </div>
+        </div>  
+      </a>
+     </div>
+
+     <div class="camera-rg col-lg-3 col-md-3 col-xs-3" style="padding: 0px;">
+      <a href="">
+        <div class="camera-rg-total P-4" role="button" tabindex="0">
+          <div class="camera-rg-img">
+            <img src="images/dronecam.jpg">
+          </div>
+          <div class="overlayer1">
+            <div class="camera-rg-title" >Drone Camera</div>
+          </div>
+        </div>  
+      </a>
+     </div>
+
+   </div>
+
+       <div class="row">
+     <div class="camera-rg col-lg-3 col-md-3 col-xs-3" style="padding: 0px;">
+      <a href="">
+        <div class="camera-rg-total P-4" role="button" tabindex="0">
+          <div class="camera-rg-img">
+            <img src="images/rntcam.jpg">
+          </div>
+          <div class="overlayer1">
+            <div class="camera-rg-title" >Rent Camera</div>
+          </div>
+        </div>  
+      </a>
+     </div>
+
+     <div class="camera-rg col-lg-3 col-md-3 col-xs-3" style="padding: 0px;">
+      <a href="">
+        <div class="camera-rg-total P-4" role="button" tabindex="0">
+          <div class="camera-rg-img">
+            <img src="images/photed.jpg">
+          </div>
+          <div class="overlayer1">
+            <div class="camera-rg-title" >Album Editing</div>
+          </div>
+        </div>  
+      </a>
+     </div>
+
+     <div class="camera-rg col-lg-3 col-md-3 col-xs-3" style="padding: 0px;">
+      <a href="">
+        <div class="camera-rg-total P-4" role="button" tabindex="0">
+          <div class="camera-rg-img">
+            <img src="images/videed.jpg">
+          </div>
+          <div class="overlayer1">
+            <div class="camera-rg-title" >Video Editing</div>
+          </div>
+        </div>  
+      </a>
+     </div>
+
+     <div class="camera-rg col-lg-3 col-md-3 col-xs-3" style="padding: 0px;">
+      <a href="">
+        <div class="camera-rg-total P-4" role="button" tabindex="0">
+          <div class="camera-rg-img">
+            <img src="images/led.jpg">
+          </div>
+          <div class="overlayer1">
+            <div class="camera-rg-title">LED Screen</div>
+          </div>
+        </div>  
+      </a>
+     </div>
+     
+   </div>
+ </div>
+<!-- Select your camera End-->
+
+<!-- How it work -->
+  <div class="syctxt">
+    <h3>How It Works</h3>
+  </div>
+
+  <div class="row col-lg-12 col-md-12 col-sm-12" style="margin-bottom: 4% !important;">
+    <div class="col-lg-3 col-md-3 col-sm-3">
+      <div style="padding: 10%;">
+        <img src="images/pic1.png">
+        <div class="Howworktext1">Choose Your</div>
+        <div class="Howworktext2">Occasion/category</div>
+      </div>
+    </div>
+
+    <div class="col-lg-3 col-md-3 col-sm-3">
+      <div style="padding: 10%;">
+        <img src="images/pic2.png">
+        <div class="Howworktext1">Pick The Suited</div>
+        <div class="Howworktext2">photographer</div>
+      </div>
+    </div>
+
+    <div class="col-lg-3 col-md-3 col-sm-3">
+      <div style="padding: 10%;">
+        <img src="images/pic3.png">
+        <div class="Howworktext1">Chechout with hassle free</div>
+        <div class="Howworktext2">payment option</div>
+      </div>
+    </div>
+
+    <div class="col-lg-3 col-md-3 col-sm-3">
+      <div style="padding: 10%;">
+        <img src="images/pic4.png">
+        <div class="Howworktext1">Are You Done</div>
+        <div class="Howworktext2">enjoy your occastion</div>
+      </div>
+    </div>
+  </div>
+<!-- How it work End-->
+
+<!-- Why Choose Us -->
+
+   <div style="background: #efefef;">
+    <div class="syctxt">
+     <h3>Why Choose Us</h3>
+    </div>
+
+  <div>
+    <div class="row col-lg-12 col-md-12 col-sm-12" style="padding: 2%">
+      <div class="col-lg-4 col-md-4 col-sm-4 whychoose-cn">
+       <div>
+        <img src="images/icon1.png">
+       </div> 
+        <div class="Howworktext1">Best Price Guaranteed</div>
+        <div class="Howworktext2">"We believe in making celebrations affortdable"</div>
+      </div>
+
+      <div class="col-lg-4 col-md-4 col-sm-4 whychoose-cn">
+       <div>
+        <img src="images/icon2.png">
+       </div> 
+        <div class="Howworktext1">Pay by Cash, Check or Cards</div>
+        <div class="Howworktext2">"We accept you are the Boss and it's your call"</div>
+      </div>
+
+      <div class="col-lg-4 col-md-4 col-sm-4 whychoose-cn">
+       <div>
+        <img src="images/icon3.png">
+       </div> 
+        <div class="Howworktext1">100% Service Assurance</div>
+        <div class="Howworktext2">"We would never want to disappoint you"</div>
+      </div>
+    </div>
+   </div>
+
+   <div class="row" style="padding: 2% 0 6%">
+      <div class="col-lg-4 col-md-4 col-sm-4 whychoose-cn">
+       <div>
+        <img src="images/icon4.png">
+       </div> 
+        <div class="Howworktext1">Best Price Guaranteed</div>
+        <div class="Howworktext2">"We believe in making celebrations affortdable"</div>
+      </div>
+
+      <div class="col-lg-4 col-md-4 col-sm-4 whychoose-cn">
+       <div>
+        <img src="images/icon5.png">
+       </div> 
+        <div class="Howworktext1">Pay by Cash, Check or Cards</div>
+        <div class="Howworktext2">"We accept you are the Boss and it's your call"</div>
+      </div>
+
+      <div class="col-lg-4 col-md-4 col-sm-4 whychoose-cn">
+       <div>
+        <img src="images/icon6.png">
+       </div> 
+        <div class="Howworktext1">100% Service Assurance</div>
+        <div class="Howworktext2">"We would never want to disappoint you"</div>
+      </div>
+    </div>
+   </div>
+  </div>
+<!-- Why Choose Us End-->
+
+<!-- Popular Photogrphers -->
+   <div class="syctxt">
+     <h3>Popular Photographers</h3>
+   </div>
+
+   <div class="popphoto-main" >
+     <div class="box">
+       <div class="imgbx">
+         <img src="images/pc1.jpg">
+       </div>
+       <div class="popphoto">
+         <div>
+           <h2>Nagavamshi G</h2>
+           <p>Regular Photogra</p>
+         </div>
+       </div>
+     </div>
+
+     <div class="box">
+       <div class="imgbx">
+         <img src="images/pc2.jpg">
+       </div>
+       <div class="popphoto">
+         <div>
+           <h2>Vamshi</h2>
+           <p>Video Photogra</p>
+         </div>
+       </div>
+     </div>
+
+     <div class="box">
+       <div class="imgbx">
+         <img src="images/pc3.jpg">
+       </div>
+       <div class="popphoto">
+         <div>
+           <h2>Naga G</h2>
+           <p>Candy Photogra</p>
+         </div>
+       </div>
+     </div>
+
+     <div class="box">
+       <div class="imgbx">
+         <img src="images/pc4.jpg">
+       </div>
+       <div class="popphoto">
+         <div>
+           <h2>Gaddam</h2>
+           <p>Drone Photogra</p>
+         </div>
+       </div>
+     </div>
+
+   </div>
+<!-- Popular Photogrphers End-->
+
+<!-- Are You Photographer -->
+   <div class="row auphototext">
+    <div class="col-lg-8 col-md-8 col-sm-8">
+      <h4>Are You Photographer?</h4>
+      <p>Join 4000+ Photographers who have successfully joined for business service with Photoworld.com</p>
+    </div>
+
+    <div class="col-lg-4 col-md-4 col-sm-4" style="text-align: center;">
+      <a href="">
+        <button type="button" class="join btjon" onclick="alert('We proved this service soon..')">Join Us</button>
+      </a>
+    </div>
+   </div>
+<!-- Are You Photographer End -->
+
+<!-- Footer -->
+ <div class="main_page-footer row col-lg-12 col-md-12 col-sm-12 pad-0 hidden-xs ng-scope">
+  <div class="inner_foot col-lg-12 col-md-12 col-sm-12">
+   <div class="row col-lg-12 col-md-12 col-sm-12 pad-0">
+
+    <div class="col-lg-4 col-md-4 col-sm-4">
+     <div class="foot-titile col-lg-12 col-md-12 col-sm-12">Quick Links</div>
+     <div class="row col-lg-12 col-md-12 col-sm-12 foot-link">
+      <div class="col-lg-6 col-md-6 col-sm-6 foot-icon">
+        <a href="#" class="colo-name">Home</a>
+      </div> 
+      <div class="col-lg-6 col-md-6 col-sm-6 foot-icon">
+        <a href="FAQ's.html" class="colo-name" target="_self">FAQ's</a>
+      </div> 
+     </div>
+     <div class="row col-lg-12 col-md-12 col-sm-12 foot-link">
+      <div class="col-lg-6 col-md-6 col-sm-6 foot-icon">
+        <a href="Contactus.html" class="colo-name" target="_self">Contact us</a>
+      </div> 
+      <div class="col-lg-6 col-md-6 col-sm-6 foot-icon">
+        <a href="Term's and  Conditions.html" class="colo-name" target="_self">Terms & Conditions</a>
+      </div> 
+     </div>
+     <div class="row col-lg-12 col-md-12 col-sm-12 foot-link">
+      <div class="col-lg-6 col-md-6 col-sm-6 foot-icon">
+        <a href="Aboutus.html" class="colo-name" target="_self">About us</a>
+      </div> 
+      <div class="col-lg-6 col-md-6 col-sm-6 foot-icon">
+        <a href="" class="colo-name" target="_self">Blog</a>
+      </div> 
+     </div>
+     <div class="row col-lg-12 col-md-12 col-sm-12 foot-link">
+      <div class="col-lg-6 col-md-6 col-sm-6 foot-icon">
+        <a href="Why us.html" class="colo-name" target="_self">Why Us</a>
+      </div> 
+      <div class="col-lg-6 col-md-6 col-sm-6 foot-icon">
+        <a href="Privacy.html" class="colo-name" target="_self">Privacy</a>
+      </div> 
+     </div>
+      <div class="row col-lg-12 col-md-12 col-sm-12 foot-link">
+      <div class="col-lg-6 col-md-6 col-sm-6 foot-icon">
+        <a href="Service.html" class="colo-name" target="_self">Service</a>
+      </div> 
+      <div class="col-lg-6 col-md-6 col-sm-6 foot-icon">
+        <!-- <a href="Term's and  Conditions.html" class="colo-name" target="_self"></a> -->
+      </div> 
+     </div>
+
+    </div>
+
+    <div class="col-lg-4 col-md-4 col-sm-4">
+     <div class="foot-titile col-lg-4 col-md-4 col-sm-4">Support</div>
+     <div class="row col-lg-12 col-md-12 col-sm-12  foot-link">
+       <div class="col-lg-2 col-md-2 col-sm-2 cl-icon">
+         <img src="images/clogo.png" class="sup-icon">
+       </div>
+       <div class="col-lg-10 col-md-10 col-sm-10 pad-0">
+         <a href="" class="colo-name">+91 7732065850</a>
+       </div>
+     </div>
+     <div class="row col-lg-12 col-md-12 col-sm-12  foot-link">
+       <div class="col-lg-2 col-md-2 col-sm-2 cl-icon">
+         <img src="images/wlogo.png" class="sup-icon">
+       </div>
+       <div class="col-lg-10 col-md-10 col-sm-10 pad-0">
+         <a href="" class="colo-name">+91 7732065850</a>
+       </div>
+     </div>
+     <div class="row col-lg-12 col-md-12 col-sm-12  foot-link">
+       <div class="col-lg-2 col-md-2 col-sm-2 cl-icon">
+         <img src="images/mail.png" class="sup-icon">
+       </div>
+       <div class="col-lg-10 col-md-10 col-sm-10 pad-0">
+         <a href="" class="colo-name">Contact@photoworld.com</a>
+       </div>
+     </div>
+    </div>
+
+    <div class="col-lg-4 col-md-4 col-sm-4">
+     <div class="foot-titile">Social Links</div>
+     <div class="col-lg-12 col-md-12 col-sm-12 foot-slogo">
+       <a href="" class="colo-name" target="_blank">
+         <img src="images/facebook.png" class="foot-logo">
+       </a>
+       <a href="" class="colo-name" target="_blank">
+         <img src="images/twitter.png" class="foot-logo">
+       </a>
+       <a href="" class="colo-name" target="_blank">
+         <img src="images/instagram.png" class="foot-logo">
+       </a>
+       <a href="" class="colo-name" target="_blank">
+         <img src="images/logo.png" class="foot-logo">
+       </a>
+       <a href="" class="colo-name" target="_blank">
+         <img src="images/linkedin.png" class="foot-logo">
+       </a>
+     </div>
+    </div>
+
+   </div>
+
+   <div class="row col-lg-12 col-md-12 col-sm-12 pad-0" style="margin-top: 1% !important;">
+    <div class="col-lg-4 col-md-4 col-sm-4">
+     <div class="foot-titile">Secure Paymets</div>
+     <div class="col-lg-12 col-md-12 col-sm-12 foot-slogo">
+       <a href="" class="colo-name">
+         <img src="images/master_card.png" class="foot-logo1">
+       </a>
+       <a href="" class="colo-name">
+         <img src="images/rupay.png" class="foot-logo1">
+       </a>
+       <a href="" class="colo-name">
+         <img src="images/visa.png" class="foot-logo1">
+       </a>
+       <a href="" class="colo-name">
+         <img src="images/discover.png" class="foot-logo1">
+       </a>
+       <a href="" class="colo-name">
+         <img src="images/maestro.png" class="foot-logo1">
+       </a>
+       <a href="" class="colo-name">
+         <img src="images/american_express.png" class="foot-logo1">
+       </a>
+     </div>
+    </div>
+
+    <div class="col-lg-4 col-md-4 col-sm-4">
+     <div class="foot-titile">Registered Office Address</div>
+     <div class="row col-lg-12 col-md-12 col-sm-12">
+       Kukatpally, Hyderabad, Telangana 500072
+     </div>
+    </div>
+
+    <div class="col-lg-4 col-md-4 col-sm-4">
+     <div class="row col-lg-12 col-md-12 col-sm-12">
+      © 2020 www.GalleryGuideLine.com .All rights reserved.
+     </div>
+    </div>
+
+   </div>
+
+  </div>
+ </div> 
+<!-- Footer End-->
+
+  </body>
+
+
+   <script type="text/javascript">
+
+
+     var attempt = 2; 
+      function validate()
+      {
+      
+      var username = document.getElementById("username1").value;
+      var password = document.getElementById("password1").value;
+      
+
+      if ( username == "" && password == "")
+      {
+      alert ("Login successfully");
+     
+      return false;
+      }
+      else
+      {
+      attempt --;
+      alert("You have left "+attempt+" attempt;");
+      // Disabling fields after 3 attempts.
+      // if( attempt == 0){
+      // document.getElementById("username").disabled = true;
+      // document.getElementById("password").disabled = true;
+      // document.getElementById("submit").disabled = true;
+      // return false;
+      // }
+      }
+      }
+   </script>
+
+
+ <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+
+  </body>
+</html>
